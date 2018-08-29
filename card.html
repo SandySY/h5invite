@@ -23,7 +23,7 @@
                     <div class="pingingimg">
                         <div class="activeinfo">
                             <p class="title">庆典地点：</p>
-                            <p class="des">本次庆典是继2017年5月1号江西高安和2017年5月21号山东平度之后的第三场庆典。庆典基地选在了交通便利的大上海。</p>
+                            <p class="des">本次庆典是继2018年7月7号情人节之后的第二场庆典。庆典基地选在了美滋滋的南湖公园。</p>
                             <p class="title">庆典形式：</p>
                             <p class="des">别墅轰趴，轰趴图片大概如下图。</p>
                             <p class="title">庆典流程：</p>
@@ -33,7 +33,8 @@
                     </div>
                   <div class="btm_contract">
                         <a href="javascript:void(0)"  class="telphone"><s></s>点击参加</a>
-                        <a href="vedio.html" class="yaoyuehezuo"><s></s>继续观看</a>
+                        <a href="www.sylove.xin/helloSY" class="yaoyuehezuo"><s></s>博主首页</a>
+                        <!--<a href="vedio.html" class="yaoyuehezuo"><s></s>继续观看</a>-->
                     </div>
                 </div>
             </div>
@@ -71,7 +72,9 @@ $(".tijiaobtn").on("click",function(){
     var reg=/^1[3|4|5|7|8]\d{9}$/g;
     console.log(canjia);
     if(name!="" && phone !="" &&  reg.test(phone)){
-            $.ajax({
+        alert("提交成功！")
+
+        /*$.ajax({
                 url:"http://resource.haorooms.com/addshanghai.php",
                 type:"post",
                 dataType:"jsonp",
@@ -86,7 +89,7 @@ $(".tijiaobtn").on("click",function(){
                 error:function(res){
                     console.log(res)
                 }
-            })
+            })*/
      }else{
          alert("格式不正确！")
      }
