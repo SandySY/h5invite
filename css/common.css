@@ -127,7 +127,7 @@ animation: opendoor 5s forwards;}
  writing-mode: tb-rl;
     -webkit-writing-mode: vertical-rl;      
     writing-mode: vertical-rl;color:#000;font-size:.24rem;}
-.fonttips{position: absolute;top:2.0rem;right:1.2rem;writing-mode: tb-rl;
+.fonttips{position: absolute;top:2.6rem;right:1.2rem;writing-mode: tb-rl;
     -webkit-writing-mode: vertical-rl;      
     writing-mode: vertical-rl;color:#000;font-size:.4rem;line-height: 2;}
 .loadingcss{position: absolute;width:109px;height:87px;top:0;right:0;bottom:0;left:0;margin:auto;background: url("../images/loading.gif") no-repeat center center;background-size: 109px 87px;z-index:900;}
