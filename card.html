@@ -71,8 +71,12 @@
   <script type="text/javascript">
 
 $(".tijiaobtn").on("click",function(){
-    var name=$.trim($("#name").val()),phone=$.trim($("#phone").val()),canjia=$("input[name='canjia']:checked").val();
+    var name=$.trim($("#name").val()),
+        phone=$.trim($("#phone").val()),
+        canjia=$("input[name='canjia']:checked").val();
     var reg=/^1[3|4|5|7|8]\d{9}$/g;
+    console.log(name);
+    console.log(phone);
     console.log(canjia);
     if(name!="" && phone !="" &&  reg.test(phone)){
         alert("提交成功！")
